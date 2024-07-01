@@ -1,0 +1,105 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f4f4f4;
+}
+
+Nav {
+    Background-color: white;
+    box-shadow: inset black;
+}
+
+Nav ul {
+    List-style-type: none;
+    Margin: 0;
+    Padding: 0;
+    Overflow: hidden;
+    
+}
+
+Nav ul li {
+    Float: left;
+}
+
+Nav ul li a {
+    Display: block;
+    Color: black;
+    Text-align: center;
+    Padding: 14px 16px;
+    Text-decoration: none;
+}
+
+Nav ul li a:hover {
+    Background-color:lightblue;
+    border: solid; 
+}
+
+.brown{
+    margin-right: 40px;
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+}
+.edu{
+    margin-right: 30px;
+}
+.skill{
+    margin-right: 30px;
+}
+
+.exp{
+    margin-right: 30px;
+}
+.prof{
+    margin-right: 30px;
+}
+.port{
+    margin-right: 30px;
+}
+.clients{
+    margin-right: 30px;
+}
+.con{
+    margin-right: 30px;
+}
+.abt{
+    text-align: center;
+    font-size: larger;
+}
+.container {
+    Display: flex;
+    justify-content: space-between;
+    Align-items: center;
+}
+.text {
+    flex-wrap: 1;
+    Margin-left: 10px;
+}
+.image{
+    width: 300px;
+}
+.phone{
+    display: inline-block;
+    margin-left: 60px;
+    margin-right: 70px;
+    height: 30px;
+}
+.mail{
+    display: inline-block;
+    margin-right: 70px;
+    height: 30px;
+}
+.web{
+    display: inline-block;
+    margin-right: 70px;
+    height: 30px;
+}
+:hover .phone{
+    cursor:pointer;
+}
+:hover .mail{
+    cursor:pointer;
+}
+:hover.web{
+    cursor:pointer;
+}
